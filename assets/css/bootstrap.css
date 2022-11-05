@@ -12,6 +12,7 @@ html {
 body {
   margin: 0;
 }
+a { color: black; }
 @media screen and (max-width: 425px) {
   .centermedia {
     width: 100%;
@@ -1552,7 +1553,11 @@ samp {
   width: 100%;
   display: inline-block;
   font-size: 0;
-  line-height: 0
+  line-height: 0;
+
+  flex-direction: row;
+  justify-content: center;
+
 }
 #thumbs {
   width: 150vh;
