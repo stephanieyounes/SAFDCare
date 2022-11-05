@@ -12,6 +12,19 @@ html {
 body {
   margin: 0;
 }
+@media screen and (max-width: 425px) {
+  .centermedia {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .centermedia {
+    width: 300px;
+    margin-top: 18px;
+    border-radius: 5px;
+  }
+}
 article,
 aside,
 details,
