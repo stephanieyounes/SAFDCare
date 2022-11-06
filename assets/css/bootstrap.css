@@ -26,6 +26,76 @@ a { color: black; }
     border-radius: 5px;
   }
 }
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 66%;
+  height: 200px;
+
+  background: rgba(0, 23, 72, 1);
+  counter-increment: gallery-cell;
+  justify-content: center;
+  align-content: center;
+}
+.gallery-cellTwo {
+  width: 66%;
+  height: 200px;
+  background: rgba(0, 23, 72, 1);
+  counter-increment: gallery-cell;
+  text: "hi";
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  text: "Stress";
+  font-family: 'Poppins', serif;
+
+}
+.gallery-cellThree {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: rgba(0, 23, 72, 1);
+  /*counter-increment: gallery-cell;*/
+
+
+}
+
+.gallery-cellFour {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: rgba(0, 23, 72, 1);
+  /*counter-increment: gallery-cell;*/
+  text: "hi";
+}
+.gallery-cellFive {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: rgba(0, 23, 72, 1);
+  /*counter-increment: gallery-cell;*/
+  text: "hi";
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
 article,
 aside,
 details,

@@ -11,14 +11,22 @@
     <meta charset="UTF-8">
     <title>SAFD Care</title>
 
+
+    <!-- flickity -->
+
+    <link rel="stylesheet" href="assets/css/flickity.css" media="screen">
+
+    <!-- webiste icon -->
     <link rel="icon" href="assets/icons/firefighter.png">
 
+
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Inter:wght@800&family=Poppins:wght@700&display=swap" rel="stylesheet">
 </head>
 <body >
-
+<script src="assets/js/flickity.pkgd.js"></script>
 <!--/*rgba(186, 35, 52, 1)-->
 <nav style="background-color:black;color: white; height: 85px;font-family: 'Poppins', serif; ", class="navbar navbar-default">
     <div class="container-fluid">
@@ -44,7 +52,7 @@
 <!--            </form>-->
             <ul class="nav navbar-nav navbar-right">
                 <li style="font-size: 20px; top: 10px" ><a href="#resources">Resources</a></li>
-                <li style="font-size: 20px; top: 10px"><a href="#">About Us</a></li>
+                <li style="font-size: 20px; top: 10px"><a href="#about">About Us</a></li>
                 <li style="font-size: 20px; top: 10px"><a href="#">Self-Assessments</a></li>
 <!--                <li class="dropdown">-->
 <!--                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>-->
@@ -112,7 +120,7 @@
 <br />
 <br />
 <br />
-<div class="centermedia" style="margin-left: 20vh; background-color: black;margin-right: 20vh; margin-bottom: 20vh;border-radius: 25px;" >
+<div id="about"class="centermedia" style="margin-left: 20vh; background-color: rgba(0, 23, 72, 1);margin-right: 20vh; margin-bottom: 20vh;border-radius: 25px;" >
         <br /><br />
         <h1 style="text-align: center; color: white; font-size: 50px;font-family: 'Poppins', serif; font-weight: 700;"> What is SAFDCare </h1>
     <br /><br />
@@ -135,6 +143,22 @@
     </table>
 
     <br /><br />
+</div>
+
+<div id="self-assessments"class="centermedia"  >
+    <h1 style="font-family: 'Poppins', serif; margin-left: 20vh;">SELF-ASSESSMENTS</h1>
+    <hr style="border-top: 5px solid #095484; margin-left: 20vh; margin-right: 20vh">
+
+
+</div>
+<div class="gallery js-flickity"
+     data-flickity-options='{ "wrapAround": true }'>
+    <a target="_blank" onclick="location.href='https://assess.cordico.cloud/s3/Adult-ADHD-Self-Report-Scale';" class="gallery-cellTwo"><h1  style="justify-content: center; margin-top: 10vh">Adult ADHD</h1></a>
+    <a target="_blank" onclick="location.href='https://assess.cordico.cloud/s3/Cordico-Anger-Scale';"class="gallery-cellTwo"><h1 style="justify-content: center; margin-top: 10vh">Cordico Anger Scale</h1></a>
+    <a target="_blank" onclick="location.href='https://assess.cordico.cloud/s3/Depression-Screening-Tool';"class="gallery-cellTwo"><h1 style="justify-content: center; margin-top: 10vh">Depression</h1></a>
+    <a target="_blank" onclick="location.href='https://assess.cordico.cloud/s3/Resilience-Self-Assessment';"class="gallery-cellTwo"><h1 style="justify-content: center; margin-top: 10vh">Resilience</h1></a>
+    <a target="_blank" onclick="location.href='https://assess.cordico.cloud/s3/Perceived-Stress-Scale';"class="gallery-cellTwo"><h1 style="justify-content: center; margin-top: 10vh">Stress</h1></a>
+    <a target="_blank" onclick="location.href='https://assess.cordico.cloud/s3/Well-Being-Index';"class="gallery-cellTwo"><h1 style="justify-content: center; margin-top: 10vh">Well-Being</h1></a>
 </div>
 
 
