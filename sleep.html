@@ -25,10 +25,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Inter:wght@800&family=Poppins:wght@700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body style="background-color: #7a9eb1">
 <script src="assets/js/flickity.pkgd.js"></script>
 <!--/*rgba(186, 35, 52, 1)-->
-<nav style="background-color:#586b8f;color: white; height: 85px;font-family: 'Poppins', serif; ", class="navbar navbar-default">
+<nav id="navbar" style="background-color: rgba(0, 23, 72, 1);color: white; height: 75px;font-family: 'Poppins', serif;
+position: fixed; top: 0; width: 100%; ", class="navbar navbar-default">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -38,7 +39,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a style="font-family: 'Poppins', serif; font-size: 50px; color: white; margin-top: 1000px; margin-left: 5vh";   href="index.html">SAFDCare</a>
+            <!--            <a style="font-family: 'Poppins', serif; font-size: 40px; color: white; margin-top: 1000px; margin-left: 5vh";   href="#"><link rel="icon" href="assets/icons/logo.png">Home</a>-->
+            <!--           <img style="width: 100px; height: 100px; margin-left: 20vh" rel="icon" src="assets/icons/logo.png">-->
+            <a style="font-size: 30px; margin-left: 90px; margin-top: 1vh"  href="#navbar" type="button" class="btn btn-danger">Home</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,9 +54,10 @@
             <!--                <button type="submit" class="btn btn-default">Submit</button>-->
             <!--            </form>-->
             <ul class="nav navbar-nav navbar-right">
-<!--                <li style="font-size: 20px; top: 10px" ><a href="#resources">Resources</a></li>-->
-<!--                <li style="font-size: 20px; top: 10px"><a href="#about">About Us</a></li>-->
-<!--                <li style="font-size: 20px; top: 10px"><a href="#self-assessments">Self-Assessments</a></li>-->
+                <li style="font-size: 20px; top: 10px" ><a href="#about">About</a></li>
+                <li style="font-size: 20px; top: 10px"><a href="#resources">Resources</a></li>
+                <li style="font-size: 20px; top: 10px"><a href="#self-assessments">Self-Assessments</a></li>
+                <li style="font-size: 20px; top: 10px"><a href="#reads">Featured Reads</a></li>
                 <!--                <li class="dropdown">-->
                 <!--                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>-->
                 <!--                    <ul class="dropdown-menu">-->
@@ -68,13 +72,14 @@
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 
-<!--    <div onclick="location.href='http://www.example.com';" style="background-color:black;-->
-<!--        color: white; height: 2.5px;font-family: 'Poppins', serif; font-size: 20px; cursor: pointer; text-align: center ", class="navbar navbar-default">-->
-<!--        Click Here for Immediate Help-->
-<!--    </div>-->
+    <!--    <div onclick="location.href='http://www.example.com';" style="background-color:white;-->
+    <!--        color: black; height: 2.5px;font-family: 'Poppins', serif; font-size: 20px; cursor: pointer; text-align: center ", class="navbar navbar-default">-->
+    <!--        Click Here for Immediate Help-->
+    <!--        <hr style="border-top: 1px solid black; ">-->
+    <!--    </div>-->
 </nav>
 
-<br /><br />
+<br /><br /><br /><br /><br /><br />
 
 <h1 style="font-family: 'Inter', serif; text-align: center; font-size: 55px"> Better Sleep </h1>
 <h1 style="font-family: 'Inter:wght@200', serif; text-align: center; font-size: 30px; margin-right: 50vh; margin-left: 50vh"> With sleep deprivation being directly linked to poor
@@ -116,7 +121,7 @@
 </center>
 
 
-<h1 style="font-family: 'Poppins', serif; margin-left: 20vh;"> Sleep Sounds </h1>
+<h1 style="font-family: 'Inter:wght@200', serif; margin-left: 20vh;"> Sleep Sounds </h1>
 <!--<hr style="border-top: 5px solid #095484; margin-left: 20vh; margin-right: 20vh">-->
 
 <div class="gallery js-flickity"

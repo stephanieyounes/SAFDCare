@@ -27,8 +27,20 @@
 </head>
 <body>
 <script src="assets/js/flickity.pkgd.js"></script>
+<script>
+    function fullwindowpopup1(){
+        window.open("popups/timeManagement.html","bfs","fullscreen,scrollbars, width=1400,height=700")
+    }
+    function fullwindowpopup2(){
+        window.open("technology.html","bfs","fullscreen,scrollbars, width=500,height=500")
+    }
+    function fullwindowpopup3(){
+        window.open("popups/family.html","bfs","fullscreen,scrollbars, width=500,height=500")
+    }
+</script>
 <!--/*rgba(186, 35, 52, 1)-->
-<nav style="background-color:#586b8f;color: white; height: 85px;font-family: 'Poppins', serif; ", class="navbar navbar-default">
+<nav id="navbar" style="background-color: rgba(0, 23, 72, 1);color: white; height: 75px;font-family: 'Poppins', serif;
+position: fixed; top: 0; width: 100%; ", class="navbar navbar-default">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -38,7 +50,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a style="font-family: 'Poppins', serif; font-size: 50px; color: white; margin-top: 1000px; margin-left: 5vh";   href="index.html">SAFDCare</a>
+            <!--            <a style="font-family: 'Poppins', serif; font-size: 40px; color: white; margin-top: 1000px; margin-left: 5vh";   href="#"><link rel="icon" href="assets/icons/logo.png">Home</a>-->
+            <!--           <img style="width: 100px; height: 100px; margin-left: 20vh" rel="icon" src="assets/icons/logo.png">-->
+            <a style="font-size: 30px; margin-left: 90px; margin-top: 1vh"  href="#navbar" type="button" class="btn btn-danger">Home</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,9 +65,10 @@
             <!--                <button type="submit" class="btn btn-default">Submit</button>-->
             <!--            </form>-->
             <ul class="nav navbar-nav navbar-right">
-                <!--                <li style="font-size: 20px; top: 10px" ><a href="#resources">Resources</a></li>-->
-                <!--                <li style="font-size: 20px; top: 10px"><a href="#about">About Us</a></li>-->
-                <!--                <li style="font-size: 20px; top: 10px"><a href="#self-assessments">Self-Assessments</a></li>-->
+                <li style="font-size: 20px; top: 10px" ><a href="#about">About</a></li>
+                <li style="font-size: 20px; top: 10px"><a href="#resources">Resources</a></li>
+                <li style="font-size: 20px; top: 10px"><a href="#self-assessments">Self-Assessments</a></li>
+                <li style="font-size: 20px; top: 10px"><a href="#reads">Featured Reads</a></li>
                 <!--                <li class="dropdown">-->
                 <!--                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>-->
                 <!--                    <ul class="dropdown-menu">-->
@@ -68,13 +83,48 @@
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 
-    <!--    <div onclick="location.href='http://www.example.com';" style="background-color:black;-->
-    <!--        color: white; height: 2.5px;font-family: 'Poppins', serif; font-size: 20px; cursor: pointer; text-align: center ", class="navbar navbar-default">-->
+    <!--    <div onclick="location.href='http://www.example.com';" style="background-color:white;-->
+    <!--        color: black; height: 2.5px;font-family: 'Poppins', serif; font-size: 20px; cursor: pointer; text-align: center ", class="navbar navbar-default">-->
     <!--        Click Here for Immediate Help-->
+    <!--        <hr style="border-top: 1px solid black; ">-->
     <!--    </div>-->
 </nav>
 
-<br /><br />
+<br /><br /><br /><br /><br /><br />
+<h1 style="font-family: 'Inter', serif; text-align: center; font-size: 55px"> Mental Health </h1>
+<h1 style="font-family: 'Inter:wght@200', serif; text-align: center; font-size: 30px; margin-right: 50vh; margin-left: 50vh"> Mental health is critical for firefighters and these is the place for resources readily available to help firefighters raise awareness within their teams.
+    As well as to use these resources to better your own mental health.
+</h1>
+<hr style="border-top: 3px solid black; margin-left: 20vh; margin-right: 20vh">
+<br />
+<h1 style="font-family: 'Inter:wght@200', serif; margin-left: 20vh;">Useful Articles</h1>
+<hr style="border-top: 3px solid black; margin-left: 20vh; margin-right: 20vh">
 
+
+<div id="about"class="centermedia" style="margin-left: 20vh; background-color: rgba(0, 23, 72, 1);margin-right: 20vh; margin-bottom: 20vh;border-radius: 25px;" >
+    <br /><br />
+    <h2 style="text-align: center; color: white; font-size: 40px;font-family: 'Inter', serif; font-weight: 700;"> Mental Health Subject of the Day </h2>
+    <h1 style="text-align: center; color: white; font-size: 50px;font-family: 'Inter', serif; font-weight: 700;text-decoration: underline; "> Work/Life Balance </h1>
+    <br />
+
+    <h2 style="text-align: center; color: white; font-size: 20px; margin-right: 10vh; margin-left: 10vh">
+        Developing a healthy work-life balance can be a difficult task – indeed, some may find themselves distressed by the sense of guilt
+        that they are failing at balance, adding to stress from being busy at work. It can then become easy to feel pulled in opposite directions –
+        trying to perform successfully at work, but also trying to devote quality time to family, friends, or valued activities.
+        <br /><br />
+        Click on the links below for some useful skills to keep a good work/life balance!
+    </h2>
+
+    <table style="text-align: center; align-content: center; justify-content: center; "id="thumbs">
+        <tr >
+            <td><img onClick="fullwindowpopup1()" style="width: 150px" src="assets/icons/time-management.png"></td>
+            <td><img onClick="fullwindowpopup2()" style="width: 150px" src="assets/icons/computing-cloud.png"></td>
+            <td><img onClick="fullwindowpopup3()" style="width: 150px" src="assets/icons/family.png"></td>
+
+        </tr>
+    </table>
+
+    <br /><br />
+</div>
 </body>
 </html>

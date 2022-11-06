@@ -25,10 +25,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Inter:wght@800&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-<body >
+<body style="background-color: #7a9eb1" >
 <script src="assets/js/flickity.pkgd.js"></script>
 <!--/*rgba(186, 35, 52, 1)-->
-<nav style="background: linear-gradient(108.4deg, rgb(253, 44, 56) 3.3%, rgb(176, 2, 12) 98.4%);;color: white; height: 85px;font-family: 'Poppins', serif; ", class="navbar navbar-default">
+<nav  style="background-color: rgba(0, 23, 72, 1);color: white; height: 75px;font-family: 'Poppins', serif;
+position: fixed; top: 0; width: 100%; ", class="navbar navbar-default">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -38,7 +39,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a style="font-family: 'Poppins', serif; font-size: 50px; color: white; margin-top: 1000px; margin-left: 5vh";   href="#">SAFDCare</a>
+<!--            <a style="font-family: 'Poppins', serif; font-size: 40px; color: white; margin-top: 1000px; margin-left: 5vh";   href="#"><link rel="icon" href="assets/icons/logo.png">Home</a>-->
+<!--           <img style="width: 100px; height: 100px; margin-left: 20vh" rel="icon" src="assets/icons/logo.png">-->
+            <a style="font-family: 'Poppins', serif; font-size: 30px; font-weight: 700; margin-left: 90px; margin-top: 1vh"  href="#navbar" type="button" class="btn btn-danger">Home</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,9 +54,10 @@
 <!--                <button type="submit" class="btn btn-default">Submit</button>-->
 <!--            </form>-->
             <ul class="nav navbar-nav navbar-right">
-                <li style="font-size: 20px; top: 10px" ><a href="#resources">Resources</a></li>
-                <li style="font-size: 20px; top: 10px"><a href="#about">About Us</a></li>
+                <li style="font-size: 20px; top: 10px" ><a href="#about">About</a></li>
+                <li style="font-size: 20px; top: 10px"><a href="#resources">Resources</a></li>
                 <li style="font-size: 20px; top: 10px"><a href="#self-assessments">Self-Assessments</a></li>
+                <li style="font-size: 20px; top: 10px"><a href="#reads">Featured Reads</a></li>
 <!--                <li class="dropdown">-->
 <!--                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>-->
 <!--                    <ul class="dropdown-menu">-->
@@ -68,28 +72,46 @@
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 
-    <div onclick="location.href='http://www.example.com';" style="background-color:white;
-        color: black; height: 2.5px;font-family: 'Poppins', serif; font-size: 20px; cursor: pointer; text-align: center ", class="navbar navbar-default">
-        Click Here for Immediate Help
-        <hr style="border-top: 1px solid black; ">
-    </div>
+<!--    <div onclick="location.href='http://www.example.com';" style="background-color:white;-->
+<!--        color: black; height: 2.5px;font-family: 'Poppins', serif; font-size: 20px; cursor: pointer; text-align: center ", class="navbar navbar-default">-->
+<!--        Click Here for Immediate Help-->
+<!--        <hr style="border-top: 1px solid black; ">-->
+<!--    </div>-->
 </nav>
 
-<br />
-<br />
-<br />
-<br />
+<!--<div>-->
+<!--    <br /><br /><br /><br /><br /><br /><br /><br /><br />-->
+<!--    <h1 style=" font-family: 'Poppins', serif; margin-left: 20vh; margin-right: 50vh;font-size: 100px; font-weight: bold">San Antonio Fire Department Care</h1>-->
+<!--    <h2 style="font-family: 'Poppins', serif; margin-left: 20vh; font-size: 30px; font-weight: 300">Take control of your life. </h2>-->
+<!--    <img style="width: 100px; height: 100px; margin-left: 20vh" rel="icon" src="assets/icons/logo.png">-->
+<!--</div>-->
+<table id="navbar">
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <tr >
+        <td><h1 style="color: white; font-family: 'Poppins', serif; margin-left: 20vh; font-size: 100px; font-weight: bold">San Antonio Fire Department Care</h1><br /><h2 style="color: #de3c3c;font-family: 'Poppins', serif; margin-left: 20vh; font-size: 30px; font-weight: 300">Take control of your life. </h2></td>
+       <td><img style=" width: 500px; height: 500px; justify-content: center" src="assets/icons/logo.png"></td>
+    </tr>
+
+
+
+</table>
+
+<br /><br /><br /><br />
+<br /><br /><br /><br />
+<br /><br /><br /><br /><br />
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br />
+
 <div id="about"class="centermedia" style="margin-left: 20vh; background-color: rgba(0, 23, 72, 1);margin-right: 20vh; margin-bottom: 20vh;border-radius: 25px;" >
     <br /><br />
     <h1 style="text-align: center; color: white; font-size: 50px;font-family: 'Poppins', serif; font-weight: 700;"> What is SAFDCare </h1>
     <br /><br />
 
     <h2 style="text-align: center; color: white; font-size: 20px; margin-right: 10vh; margin-left: 10vh">
-        Sed et dolor ut dolor eleifend rhoncus et quis tortor. Integer pharetra dapibus lorem, non rutrum magna dictum vel.
-        Cras arcu purus, ullamcorper mollis risus quis, convallis elementum neque. Donec justo nulla, tincidunt sit amet
-        placerat in, fringilla eget mi.Sed et dolor ut dolor eleifend rhoncus et quis tortor. Integer pharetra dapibus lorem, non rutrum magna dictum vel.
-        Cras arcu purus, ullamcorper mollis risus quis, convallis elementum neque. Donec justo nulla, tincidunt sit amet
-        placerat in, fringilla eget mi.
+        Something the San Antonio Fire Department does not have is an updated user friendly wellness website. These firefighters' mental health, nutrition,
+        and overall wellness is important to not only themselves but their families. Using the SAFDCare website, firefighters and their loved ones now have
+        an easy to use website to better access so many resources! These resources will help give firefighters assessments to better understand their mental health,
+        better sleep, cancer awareness, fitness plans, and so much more!
     </h2>
 
     <table style="text-align: center; align-content: center; justify-content: center; "id="thumbs">
@@ -110,43 +132,48 @@
     <table style="text-align: center; align-content: center; justify-content: center; "id="thumbs">
         <tr style="text-align: center">
             <td><a target="_blank" href="sleep.html"><img target="_blank"  style="width: 200px" src="assets/icons/sleep.png" alt=""/></a></td>
-            <td><a href="#"><img style="width:200px" src="assets/icons/stress-management.png" alt=""/></a></td>
-            <td><a id="single_image3" href="#"><img style="width: 200px" src="assets/icons/fitness.png" alt=""/></a></td>
-            <td> <a id="single_image4" href="#"><img style="width: 200px" src="assets/icons/diet.png" alt=""/></a></td>
-            <td><a id="single_image5" href="#"><img style="width: 200px" src="assets/icons/honest.png" alt=""/></a></td>
+            <td><a target="_blank"href="mentalhealth.html"><img style="width:200px" src="assets/icons/stress-management.png" alt=""/></a></td>
+            <td><a target="_blank" id="single_image3" href="#"><img style="width: 200px" src="assets/icons/fitness.png" alt=""/></a></td>
+            <td> <a target="_blank" id="single_image4" href="#"><img style="width: 200px" src="assets/icons/diet.png" alt=""/></a></td>
+<!--            <td><a id="single_image5" href="#"><img style="width: 200px" src="assets/icons/honest.png" alt=""/></a></td>-->
 
         </tr>
         <tr >
             <td><a target="_blank" style="color: black; font-size: 20px;font-family: 'Poppins', serif; " id="betterSleep" href="sleep.html">Better Sleep</a></td>
-            <td> <a style="text-align: center; color: black; font-size: 20px;font-family: 'Poppins', serif; " id="MentalHealth" href="#">Mental Health</a></td>
-            <td><a style="text-align: center; color: black; font-size: 20px;font-family: 'Poppins', serif; " id="Fitness" href="#">Fitness</a></td>
-            <td><a style="text-align: center; color: black; font-size: 20px;font-family: 'Poppins', serif; " id="Health" href="#">Health</a></td>
-            <td><a style="text-align: center; color: black; font-size: 20px;font-family: 'Poppins', serif; " id="Wellness" href="#">Wellness</a></td>
+            <td> <a target="_blank" style="text-align: center; color: black; font-size: 20px;font-family: 'Poppins', serif; " id="MentalHealth" href="mentalhealth.html">Mental Health</a></td>
+            <td><a target="_blank" style="text-align: center; color: black; font-size: 20px;font-family: 'Poppins', serif; " id="Fitness" href="#">Fitness</a></td>
+            <td><a target="_blank" style="text-align: center; color: black; font-size: 20px;font-family: 'Poppins', serif; " id="Health" href="#">Health</a></td>
+<!--            <td><a style="text-align: center; color: black; font-size: 20px;font-family: 'Poppins', serif; " id="Wellness" href="#">Wellness</a></td>-->
         </tr>
 
     </table>
 </div>
 <br />
-<br />
-<br />
-<div id="self-assessments"class="centermedia"  >
-    <h1 style="font-family: 'Poppins', serif; margin-left: 20vh;">SELF-ASSESSMENTS</h1>
-    <hr style="border-top: 5px solid #095484; margin-left: 20vh; margin-right: 20vh">
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<div style="background-color: #8dc6ff">
+
+    <br />
+    <div id="self-assessments"class="centermedia"   >
+        <h1 style="font-family: 'Poppins', serif; margin-left: 20vh;">SELF-ASSESSMENTS</h1>
+        <hr style="border-top: 5px solid #095484; margin-left: 20vh; margin-right: 20vh">
 
 
+    </div>
+    <div class="gallery js-flickity"
+         data-flickity-options='{ "wrapAround": true }'>
+        <a target="_blank" onclick="location.href='https://assess.cordico.cloud/s3/Adult-ADHD-Self-Report-Scale';" class="gallery-cellTwo"><h1  style="justify-content: center; margin-top: 10vh">Adult ADHD</h1></a>
+        <a target="_blank" onclick="location.href='https://assess.cordico.cloud/s3/Cordico-Anger-Scale';"class="gallery-cellTwo"><h1 style="justify-content: center; margin-top: 10vh">Cordico Anger Scale</h1></a>
+        <a target="_blank" onclick="location.href='https://assess.cordico.cloud/s3/Depression-Screening-Tool';"class="gallery-cellTwo"><h1 style="justify-content: center; margin-top: 10vh">Depression</h1></a>
+        <a target="_blank" onclick="location.href='https://assess.cordico.cloud/s3/Resilience-Self-Assessment';"class="gallery-cellTwo"><h1 style="justify-content: center; margin-top: 10vh">Resilience</h1></a>
+        <a target="_blank" onclick="location.href='https://assess.cordico.cloud/s3/Perceived-Stress-Scale';"class="gallery-cellTwo"><h1 style="justify-content: center; margin-top: 10vh">Stress</h1></a>
+        <a target="_blank" onclick="location.href='https://assess.cordico.cloud/s3/Well-Being-Index';"class="gallery-cellTwo"><h1 style="justify-content: center; margin-top: 10vh">Well-Being</h1></a>
+    </div>
+    <br />
+    <br /><br /><br /><br />
 </div>
-<div class="gallery js-flickity"
-     data-flickity-options='{ "wrapAround": true }'>
-    <a target="_blank" onclick="location.href='https://assess.cordico.cloud/s3/Adult-ADHD-Self-Report-Scale';" class="gallery-cellTwo"><h1  style="justify-content: center; margin-top: 10vh">Adult ADHD</h1></a>
-    <a target="_blank" onclick="location.href='https://assess.cordico.cloud/s3/Cordico-Anger-Scale';"class="gallery-cellTwo"><h1 style="justify-content: center; margin-top: 10vh">Cordico Anger Scale</h1></a>
-    <a target="_blank" onclick="location.href='https://assess.cordico.cloud/s3/Depression-Screening-Tool';"class="gallery-cellTwo"><h1 style="justify-content: center; margin-top: 10vh">Depression</h1></a>
-    <a target="_blank" onclick="location.href='https://assess.cordico.cloud/s3/Resilience-Self-Assessment';"class="gallery-cellTwo"><h1 style="justify-content: center; margin-top: 10vh">Resilience</h1></a>
-    <a target="_blank" onclick="location.href='https://assess.cordico.cloud/s3/Perceived-Stress-Scale';"class="gallery-cellTwo"><h1 style="justify-content: center; margin-top: 10vh">Stress</h1></a>
-    <a target="_blank" onclick="location.href='https://assess.cordico.cloud/s3/Well-Being-Index';"class="gallery-cellTwo"><h1 style="justify-content: center; margin-top: 10vh">Well-Being</h1></a>
-</div>
-<br />
-<br />
-<h1 style="font-family: 'Poppins', serif; margin-left: 20vh;"> FEATURED READS </h1>
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<h1 id="reads" style="font-family: 'Poppins', serif; margin-left: 20vh;"> FEATURED READS </h1>
 <hr style="border-top: 5px solid #095484; margin-left: 20vh; margin-right: 20vh">
 <table >
     <tr >
