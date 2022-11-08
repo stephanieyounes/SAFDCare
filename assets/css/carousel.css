@@ -44,8 +44,10 @@ body {
     color: white;
     font-weight: 300;
     position: absolute;
-    left: 20px;
-    top: 15px;
+    /*left: 20px;*/
+    margin-left: 12vh;
+    margin-right: 1vh;
+    top: 20vh;
 }
 
 .bar {
