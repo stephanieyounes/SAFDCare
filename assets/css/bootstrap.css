@@ -6741,10 +6741,13 @@ button.close {
   .contentTwo{
     margin-left: 0px;
   }
+  body{
+    display: flex;
+  }
 }
 
 /* mobile */
-@media (min-width:320px) {
+@media (min-width:480px) and (max-width: 1024px) {
   .contentTwo{
     margin-left: 0px;
 
@@ -6753,6 +6756,7 @@ button.close {
     background-color:#7a9eb1;
     max-width:100%;
     height:auto;
+
   }
   .logo{
     max-width:100%;
@@ -6770,7 +6774,7 @@ button.close {
     margin-left: 20vh;
   }
   .logo{
-    width: 100vw;
+    width: 35vw;
     height: 500px;
     justify-content: center;
   }
