@@ -6743,11 +6743,41 @@ button.close {
   }
 }
 
-@media (max-width: 320px) {
+/* mobile */
+@media (min-width:320px) {
   .contentTwo{
     margin-left: 0px;
+
+  }
+  body{
+    background-color:#7a9eb1;
+    max-width:100%;
+    height:auto;
+  }
+  .logo{
+    max-width:100%;
+    height:auto;
+
   }
 }
+/*laptop */
+@media (min-width:961px) {
+  body {
+    background-color:#7a9eb1;
+
+  }
+  .contentTwo{
+    margin-left: 20vh;
+  }
+  .logo{
+    width: 100vw;
+    height: 500px;
+    justify-content: center;
+  }
+}
+
+
+
 
 .content_mobile {
   margin-left: 10px;
