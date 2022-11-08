@@ -6737,6 +6737,21 @@ button.close {
 @-ms-viewport {
   width: device-width;
 }
+@media (max-width: 480px) {
+  .contentTwo{
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 320px) {
+  .contentTwo{
+    margin-left: 0px;
+  }
+}
+
+.content_mobile {
+  margin-left: 10px;
+}
 .visible-xs,
 .visible-sm,
 .visible-md,
